@@ -1,0 +1,897 @@
+[
+    {
+        "id": 1,
+        "location": "cox's bazar",
+        "title": "Sea view luxury suite",
+        "roomDetails": "4 guests · 2 bedrooms · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Air conditioning",
+            "Kitchen"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.8,
+        "reviews": 34,
+        "pricePerNight": 45,
+        "totalPrice": 180,
+        "image": "https://picsum.photos/400/300?1",
+        "lat": 21.4272,
+        "lng": 92.0058
+    },
+    {
+        "id": 2,
+        "location": "cox's bazar",
+        "title": "Beachside cozy apartment",
+        "roomDetails": "2 guests · 1 bedroom · 1 bed · 1 bath",
+        "features": [
+            "Wifi",
+            "Kitchen"
+        ],
+        "cancellation": "Flexible cancellation",
+        "rating": 4.6,
+        "reviews": 20,
+        "pricePerNight": 30,
+        "totalPrice": 120,
+        "image": "https://picsum.photos/400/300?2",
+        "lat": 21.429,
+        "lng": 92.008
+    },
+    {
+        "id": 3,
+        "location": "cox's bazar",
+        "title": "Ocean breeze hotel",
+        "roomDetails": "3 guests · 1 bedroom · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "AC"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.7,
+        "reviews": 22,
+        "pricePerNight": 38,
+        "totalPrice": 150,
+        "image": "https://picsum.photos/400/300?3",
+        "lat": 21.424,
+        "lng": 92.004
+    },
+    {
+        "id": 4,
+        "location": "cox's bazar",
+        "title": "Sunny beach resort",
+        "roomDetails": "5 guests · 3 bedrooms · 3 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Pool",
+            "Kitchen"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.9,
+        "reviews": 41,
+        "pricePerNight": 60,
+        "totalPrice": 240,
+        "image": "https://picsum.photos/400/300?4",
+        "lat": 21.432,
+        "lng": 92.001
+    },
+    {
+        "id": 5,
+        "location": "cox's bazar",
+        "title": "Golden sand hotel",
+        "roomDetails": "2 guests · 1 bedroom · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.5,
+        "reviews": 18,
+        "pricePerNight": 25,
+        "totalPrice": 100,
+        "image": "https://picsum.photos/400/300?5",
+        "lat": 21.421,
+        "lng": 92.006
+    },
+    {
+        "id": 6,
+        "location": "cox's bazar",
+        "title": "Luxury sea palace",
+        "roomDetails": "6 guests · 3 bedrooms · 4 beds · 3 baths",
+        "features": [
+            "Wifi",
+            "AC",
+            "Kitchen"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.8,
+        "reviews": 30,
+        "pricePerNight": 70,
+        "totalPrice": 300,
+        "image": "https://picsum.photos/400/300?6",
+        "lat": 21.435,
+        "lng": 92.01
+    },
+    {
+        "id": 7,
+        "location": "cox's bazar",
+        "title": "Blue ocean stay",
+        "roomDetails": "3 guests · 1 bedroom · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "Balcony"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.6,
+        "reviews": 19,
+        "pricePerNight": 35,
+        "totalPrice": 140,
+        "image": "https://picsum.photos/400/300?7",
+        "lat": 21.419,
+        "lng": 92.003
+    },
+    {
+        "id": 8,
+        "location": "cox's bazar",
+        "title": "Coral reef hotel",
+        "roomDetails": "4 guests · 2 bedrooms · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Kitchen"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 27,
+        "pricePerNight": 42,
+        "totalPrice": 168,
+        "image": "https://picsum.photos/400/300?8",
+        "lat": 21.433,
+        "lng": 92.002
+    },
+    {
+        "id": 9,
+        "location": "cox's bazar",
+        "title": "Wave rider resort",
+        "roomDetails": "5 guests · 2 bedrooms · 3 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Pool"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.8,
+        "reviews": 33,
+        "pricePerNight": 55,
+        "totalPrice": 220,
+        "image": "https://picsum.photos/400/300?9",
+        "lat": 21.437,
+        "lng": 92.007
+    },
+    {
+        "id": 10,
+        "location": "cox's bazar",
+        "title": "Sunset paradise hotel",
+        "roomDetails": "2 guests · 1 bedroom · 1 bed · 1 bath",
+        "features": [
+            "Wifi",
+            "AC"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.5,
+        "reviews": 16,
+        "pricePerNight": 28,
+        "totalPrice": 110,
+        "image": "https://picsum.photos/400/300?10",
+        "lat": 21.423,
+        "lng": 92.009
+    },
+    {
+        "id": 11,
+        "location": "sajek",
+        "title": "Hill view resort",
+        "roomDetails": "3 guests · 1 bedroom · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "Mountain view"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.8,
+        "reviews": 25,
+        "pricePerNight": 50,
+        "totalPrice": 200,
+        "image": "https://picsum.photos/400/300?11",
+        "lat": 23.381,
+        "lng": 92.293
+    },
+    {
+        "id": 12,
+        "location": "sajek",
+        "title": "Cloud touch cottage",
+        "roomDetails": "2 guests · 1 bedroom · 1 bed · 1 bath",
+        "features": [
+            "Wifi",
+            "Breakfast"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.9,
+        "reviews": 38,
+        "pricePerNight": 60,
+        "totalPrice": 240,
+        "image": "https://picsum.photos/400/300?12",
+        "lat": 23.383,
+        "lng": 92.295
+    },
+    {
+        "id": 13,
+        "location": "sajek",
+        "title": "Mountain breeze lodge",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Balcony"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 20,
+        "pricePerNight": 45,
+        "totalPrice": 180,
+        "image": "https://picsum.photos/400/300?13",
+        "lat": 23.379,
+        "lng": 92.291
+    },
+    {
+        "id": 18,
+        "location": "sajek",
+        "title": "Skyline bamboo cottage",
+        "roomDetails": "2 guests · 1 bedroom · 1 bed · 1 bath",
+        "features": [
+            "Wifi",
+            "Mountain view"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.6,
+        "reviews": 14,
+        "pricePerNight": 42,
+        "totalPrice": 168,
+        "image": "https://picsum.photos/400/300?18",
+        "lat": 23.382,
+        "lng": 92.294
+    },
+    {
+        "id": 19,
+        "location": "sajek",
+        "title": "Valley top resort",
+        "roomDetails": "4 guests · 2 bedrooms · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Balcony"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 21,
+        "pricePerNight": 55,
+        "totalPrice": 220,
+        "image": "https://picsum.photos/400/300?19",
+        "lat": 23.384,
+        "lng": 92.296
+    },
+    {
+        "id": 20,
+        "location": "sajek",
+        "title": "Cloud nine stay",
+        "roomDetails": "3 guests · 1 bedroom · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "Breakfast"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.8,
+        "reviews": 26,
+        "pricePerNight": 48,
+        "totalPrice": 192,
+        "image": "https://picsum.photos/400/300?20",
+        "lat": 23.38,
+        "lng": 92.292
+    },
+    {
+        "id": 21,
+        "location": "sajek",
+        "title": "Peaceful hill lodge",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.5,
+        "reviews": 13,
+        "pricePerNight": 35,
+        "totalPrice": 140,
+        "image": "https://picsum.photos/400/300?21",
+        "lat": 23.378,
+        "lng": 92.29
+    },
+    {
+        "id": 22,
+        "location": "sajek",
+        "title": "Nature touch resort",
+        "roomDetails": "5 guests · 3 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Mountain view"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.7,
+        "reviews": 18,
+        "pricePerNight": 60,
+        "totalPrice": 240,
+        "image": "https://picsum.photos/400/300?22",
+        "lat": 23.385,
+        "lng": 92.297
+    },
+    {
+        "id": 14,
+        "location": "sreemangal",
+        "title": "Tea garden eco resort",
+        "roomDetails": "4 guests · 2 bedrooms · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Nature view"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.8,
+        "reviews": 28,
+        "pricePerNight": 40,
+        "totalPrice": 160,
+        "image": "https://picsum.photos/400/300?14",
+        "lat": 24.306,
+        "lng": 91.731
+    },
+    {
+        "id": 15,
+        "location": "sreemangal",
+        "title": "Green valley homestay",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.5,
+        "reviews": 15,
+        "pricePerNight": 25,
+        "totalPrice": 100,
+        "image": "https://picsum.photos/400/300?15",
+        "lat": 24.308,
+        "lng": 91.729
+    },
+    {
+        "id": 23,
+        "location": "sreemangal",
+        "title": "Tea valley resort",
+        "roomDetails": "4 guests · 2 bedrooms · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Nature view"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.8,
+        "reviews": 24,
+        "pricePerNight": 45,
+        "totalPrice": 180,
+        "image": "https://picsum.photos/400/300?23",
+        "lat": 24.305,
+        "lng": 91.732
+    },
+    {
+        "id": 24,
+        "location": "sreemangal",
+        "title": "Forest side cottage",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.6,
+        "reviews": 16,
+        "pricePerNight": 28,
+        "totalPrice": 110,
+        "image": "https://picsum.photos/400/300?24",
+        "lat": 24.307,
+        "lng": 91.728
+    },
+    {
+        "id": 25,
+        "location": "sreemangal",
+        "title": "Green tea homestay",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "Kitchen"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 19,
+        "pricePerNight": 35,
+        "totalPrice": 140,
+        "image": "https://picsum.photos/400/300?25",
+        "lat": 24.309,
+        "lng": 91.733
+    },
+    {
+        "id": 26,
+        "location": "sreemangal",
+        "title": "Eco garden lodge",
+        "roomDetails": "5 guests · 3 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Nature view"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.8,
+        "reviews": 22,
+        "pricePerNight": 50,
+        "totalPrice": 200,
+        "image": "https://picsum.photos/400/300?26",
+        "lat": 24.304,
+        "lng": 91.73
+    },
+    {
+        "id": 27,
+        "location": "sreemangal",
+        "title": "Jungle view retreat",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.5,
+        "reviews": 12,
+        "pricePerNight": 26,
+        "totalPrice": 104,
+        "image": "https://picsum.photos/400/300?27",
+        "lat": 24.303,
+        "lng": 91.727
+    },
+    {
+        "id": 16,
+        "location": "sundarban",
+        "title": "River view eco lodge",
+        "roomDetails": "4 guests · 3 beds · 2 baths",
+        "features": [
+            "Boat tour",
+            "Meals"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.7,
+        "reviews": 19,
+        "pricePerNight": 55,
+        "totalPrice": 220,
+        "image": "https://picsum.photos/400/300?16",
+        "lat": 22.0,
+        "lng": 89.6
+    },
+    {
+        "id": 17,
+        "location": "sundarban",
+        "title": "Forest retreat camp",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Guide",
+            "Meals"
+        ],
+        "cancellation": "Limited",
+        "rating": 4.6,
+        "reviews": 12,
+        "pricePerNight": 35,
+        "totalPrice": 140,
+        "image": "https://picsum.photos/400/300?17",
+        "lat": 22.01,
+        "lng": 89.61
+    },
+    {
+        "id": 28,
+        "location": "sundarban",
+        "title": "Mangrove eco resort",
+        "roomDetails": "4 guests · 3 beds · 2 baths",
+        "features": [
+            "Boat tour",
+            "Meals"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.7,
+        "reviews": 21,
+        "pricePerNight": 60,
+        "totalPrice": 240,
+        "image": "https://picsum.photos/400/300?28",
+        "lat": 22.02,
+        "lng": 89.62
+    },
+    {
+        "id": 29,
+        "location": "sundarban",
+        "title": "Tiger trail lodge",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Guide",
+            "Meals"
+        ],
+        "cancellation": "Limited",
+        "rating": 4.6,
+        "reviews": 17,
+        "pricePerNight": 48,
+        "totalPrice": 192,
+        "image": "https://picsum.photos/400/300?29",
+        "lat": 22.03,
+        "lng": 89.63
+    },
+    {
+        "id": 30,
+        "location": "sundarban",
+        "title": "River cruise stay",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Boat",
+            "Meals"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.8,
+        "reviews": 25,
+        "pricePerNight": 70,
+        "totalPrice": 280,
+        "image": "https://picsum.photos/400/300?30",
+        "lat": 22.04,
+        "lng": 89.64
+    },
+    {
+        "id": 31,
+        "location": "sundarban",
+        "title": "Wildlife camp lodge",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Guide",
+            "Food"
+        ],
+        "cancellation": "Limited",
+        "rating": 4.7,
+        "reviews": 20,
+        "pricePerNight": 55,
+        "totalPrice": 220,
+        "image": "https://picsum.photos/400/300?31",
+        "lat": 22.05,
+        "lng": 89.65
+    },
+    {
+        "id": 32,
+        "location": "sundarban",
+        "title": "Forest river retreat",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Boat",
+            "Guide"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.6,
+        "reviews": 18,
+        "pricePerNight": 50,
+        "totalPrice": 200,
+        "image": "https://picsum.photos/400/300?32",
+        "lat": 22.06,
+        "lng": 89.66
+    },
+    {
+        "id": 33,
+        "location": "cox's bazar",
+        "title": "Coral beach hotel",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "AC"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 29,
+        "pricePerNight": 48,
+        "totalPrice": 192,
+        "image": "https://picsum.photos/400/300?33",
+        "lat": 21.428,
+        "lng": 92.006
+    },
+    {
+        "id": 34,
+        "location": "cox's bazar",
+        "title": "Ocean pearl resort",
+        "roomDetails": "5 guests · 3 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Pool"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.8,
+        "reviews": 36,
+        "pricePerNight": 65,
+        "totalPrice": 260,
+        "image": "https://picsum.photos/400/300?34",
+        "lat": 21.436,
+        "lng": 92.011
+    },
+    {
+        "id": 35,
+        "location": "cox's bazar",
+        "title": "Sea breeze inn",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.5,
+        "reviews": 14,
+        "pricePerNight": 27,
+        "totalPrice": 108,
+        "image": "https://picsum.photos/400/300?35",
+        "lat": 21.422,
+        "lng": 92.004
+    },
+    {
+        "id": 36,
+        "location": "cox's bazar",
+        "title": "Sunrise beach hotel",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "AC"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.6,
+        "reviews": 18,
+        "pricePerNight": 36,
+        "totalPrice": 144,
+        "image": "https://picsum.photos/400/300?36",
+        "lat": 21.431,
+        "lng": 92.007
+    },
+    {
+        "id": 37,
+        "location": "cox's bazar",
+        "title": "Golden sunset resort",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Kitchen"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.8,
+        "reviews": 31,
+        "pricePerNight": 52,
+        "totalPrice": 208,
+        "image": "https://picsum.photos/400/300?37",
+        "lat": 21.434,
+        "lng": 92.009
+    },
+    {
+        "id": 38,
+        "location": "sajek",
+        "title": "Hilltop paradise",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi",
+            "View"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.7,
+        "reviews": 22,
+        "pricePerNight": 44,
+        "totalPrice": 176,
+        "image": "https://picsum.photos/400/300?38",
+        "lat": 23.386,
+        "lng": 92.298
+    },
+    {
+        "id": 39,
+        "location": "sajek",
+        "title": "Cloud valley retreat",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "Balcony"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.6,
+        "reviews": 19,
+        "pricePerNight": 40,
+        "totalPrice": 160,
+        "image": "https://picsum.photos/400/300?39",
+        "lat": 23.387,
+        "lng": 92.299
+    },
+    {
+        "id": 40,
+        "location": "sreemangal",
+        "title": "Tea paradise resort",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Nature view"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.8,
+        "reviews": 26,
+        "pricePerNight": 46,
+        "totalPrice": 184,
+        "image": "https://picsum.photos/400/300?40",
+        "lat": 24.302,
+        "lng": 91.726
+    },
+    {
+        "id": 41,
+        "location": "sreemangal",
+        "title": "Green forest lodge",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.5,
+        "reviews": 13,
+        "pricePerNight": 25,
+        "totalPrice": 100,
+        "image": "https://picsum.photos/400/300?41",
+        "lat": 24.301,
+        "lng": 91.725
+    },
+    {
+        "id": 42,
+        "location": "sundarban",
+        "title": "Wild river eco stay",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Boat",
+            "Guide"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.7,
+        "reviews": 23,
+        "pricePerNight": 52,
+        "totalPrice": 208,
+        "image": "https://picsum.photos/400/300?42",
+        "lat": 22.07,
+        "lng": 89.67
+    },
+    {
+        "id": 43,
+        "location": "sundarban",
+        "title": "Nature wildlife lodge",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Meals",
+            "Guide"
+        ],
+        "cancellation": "Limited",
+        "rating": 4.6,
+        "reviews": 18,
+        "pricePerNight": 48,
+        "totalPrice": 192,
+        "image": "https://picsum.photos/400/300?43",
+        "lat": 22.08,
+        "lng": 89.68
+    },
+    {
+        "id": 44,
+        "location": "sundarban",
+        "title": "Mangrove forest camp",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Boat",
+            "Food"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.5,
+        "reviews": 15,
+        "pricePerNight": 40,
+        "totalPrice": 160,
+        "image": "https://picsum.photos/400/300?44",
+        "lat": 22.09,
+        "lng": 89.69
+    },
+    {
+        "id": 45,
+        "location": "cox's bazar",
+        "title": "Ocean dream hotel",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "AC"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 28,
+        "pricePerNight": 38,
+        "totalPrice": 152,
+        "image": "https://picsum.photos/400/300?45",
+        "lat": 21.426,
+        "lng": 92.008
+    },
+    {
+        "id": 46,
+        "location": "cox's bazar",
+        "title": "Beach crown resort",
+        "roomDetails": "5 guests · 3 beds · 2 baths",
+        "features": [
+            "Wifi",
+            "Pool"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.8,
+        "reviews": 35,
+        "pricePerNight": 62,
+        "totalPrice": 248,
+        "image": "https://picsum.photos/400/300?46",
+        "lat": 21.438,
+        "lng": 92.012
+    },
+    {
+        "id": 47,
+        "location": "sajek",
+        "title": "Cloud escape lodge",
+        "roomDetails": "2 guests · 1 bed · 1 bath",
+        "features": [
+            "Wifi"
+        ],
+        "cancellation": "Free cancellation",
+        "rating": 4.6,
+        "reviews": 17,
+        "pricePerNight": 36,
+        "totalPrice": 144,
+        "image": "https://picsum.photos/400/300?47",
+        "lat": 23.377,
+        "lng": 92.289
+    },
+    {
+        "id": 48,
+        "location": "sreemangal",
+        "title": "Tea leaf cottage",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Wifi",
+            "Kitchen"
+        ],
+        "cancellation": "Flexible",
+        "rating": 4.7,
+        "reviews": 21,
+        "pricePerNight": 34,
+        "totalPrice": 136,
+        "image": "https://picsum.photos/400/300?48",
+        "lat": 24.299,
+        "lng": 91.724
+    },
+    {
+        "id": 49,
+        "location": "sundarban",
+        "title": "Jungle river lodge",
+        "roomDetails": "4 guests · 2 beds · 2 baths",
+        "features": [
+            "Boat",
+            "Guide"
+        ],
+        "cancellation": "No cancellation",
+        "rating": 4.8,
+        "reviews": 27,
+        "pricePerNight": 58,
+        "totalPrice": 232,
+        "image": "https://picsum.photos/400/300?49",
+        "lat": 22.1,
+        "lng": 89.7
+    },
+    {
+        "id": 50,
+        "location": "sundarban",
+        "title": "Eco wildlife resort",
+        "roomDetails": "3 guests · 2 beds · 1 bath",
+        "features": [
+            "Meals",
+            "Guide"
+        ],
+        "cancellation": "Limited",
+        "rating": 4.7,
+        "reviews": 24,
+        "pricePerNight": 54,
+        "totalPrice": 216,
+        "image": "https://picsum.photos/400/300?50",
+        "lat": 22.11,
+        "lng": 89.71
+    }
+]

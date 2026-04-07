@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 
 const BookingForm = () => {
+    const navigate = useNavigate();
 
     const handleBooking = (e) => {
         e.preventDefault();
@@ -10,7 +11,9 @@ const BookingForm = () => {
         const destination = form.destination.value;
         const fromDate = form.fromDate.value;
         const toDate = form.toDate.value;
-        console.log(origin, destination, fromDate, toDate);
+        navigate('/hotels', {
+            state: { origin, destination, fromDate, toDate }
+        })
         form.reset();
     }
 

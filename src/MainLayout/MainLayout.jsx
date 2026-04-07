@@ -13,7 +13,7 @@ const MainLayout = () => {
             {/* main content */}
             <div className='relative z-10 h-full'>
                 <header className='pt-6'>
-                    <Navbar></Navbar>
+                    <Navbar isDark={true}></Navbar>
                 </header>
                 {/* outlet */}
                 <main>

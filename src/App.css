@@ -2,31 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
- @plugin "daisyui" {
-   themes: light --default;
- }
 
- @plugin "daisyui/theme" {
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@plugin "daisyui/theme" {
   name: "mytheme";
-  default: true; /* set as default */
-  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
-  color-scheme: light; /* color of browser-provided UI */
+  default: true;
+  /* set as default */
+  prefersdark: false;
+  /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light;
+  /* color of browser-provided UI */
 
-  --color-primary : #FFFFFF;
+  --color-primary: #FFFFFF;
   --color-secondary: #F9A51A;
-  --color-accent : #818181;
-  --color-base-100 : #C4C4C4;
-  --color-base-200 : #F2F2F2;
- }
+  --color-accent: #818181;
+  --color-base-100: #C4C4C4;
+  --color-base-200: #F2F2F2;
+}
+
 /* for header title */
- .bebas{
+.bebas {
   font-family: "Bebas Neue", sans-serif;
- }
- /* for paragraph */
- .mont{
+}
+
+/* for paragraph */
+.mont {
   font-family: "Montserrat", sans-serif;
- }
- a.active{
+}
+
+/* a.active{
   text-decoration: underline;
- }
- 
+ } */
+.custom-marker {
+  background: none;
+  border: none;
+  overflow: visible;
+}
+.mapHight{
+  height: 400px;
+}

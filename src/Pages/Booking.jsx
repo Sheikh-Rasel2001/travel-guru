@@ -1,5 +1,7 @@
 import React from 'react';
 import BookingForm from '../Component/BookingForm';
+import { Link } from 'react-router';
+import { FaArrowLeft } from 'react-icons/fa';
 
 const Booking = () => {
     return (
@@ -14,6 +16,8 @@ const Booking = () => {
                     <BookingForm></BookingForm>
                 </div>
             </div>
+          {/* back to home */}
+                <Link to='/' className='flex items-center text-blue-500 gap-2 hover:text-primary mont w-52'><FaArrowLeft /> Back To Home</Link>
         </div>
     );
 };
