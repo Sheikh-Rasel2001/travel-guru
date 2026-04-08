@@ -35,10 +35,10 @@ const Navbar = ({ isDark }) => {
             </div>
             {/* menu item */}
             <div className='flex justify-between items-center gap-6 mont text-lg'>
-                <NavLink>News</NavLink>
-                <NavLink>Destination</NavLink>
-                <NavLink>Blog</NavLink>
-                <NavLink>Contact</NavLink>
+                <NavLink to='/'>News</NavLink>
+                <NavLink to='/'>Destination</NavLink>
+                <NavLink to='/'>Blog</NavLink>
+                <NavLink to='/'>Contact</NavLink>
             </div>
             {/* login button */}
             <div>

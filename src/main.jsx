@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router';
 import router from './Router/Router.jsx';
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import AuthProvider from './Authentication/AuthProvider.jsx';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -18,8 +19,9 @@ L.Icon.Default.mergeOptions({
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}>
-    </RouterProvider>
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
 
   </StrictMode>,
 )
