@@ -7,11 +7,13 @@ import AuthLayout from "../Authentication/AuthLayout";
 import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
 import PrivateRoute from "../Authentication/PrivateRoute";
+import Loading from "../Pages/Loading";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
+        hydrateFallbackElement: <Loading></Loading>,
         children: [
             {
                 index: true,

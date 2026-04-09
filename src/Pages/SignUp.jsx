@@ -3,8 +3,9 @@ import { Link, useLocation, useNavigate } from 'react-router';
 import googleImg from '../assets/google.png';
 import fbImg from '../assets/fb.png';
 import AuthContext from '../Authentication/AuthContext';
-import { updateProfile } from 'firebase/auth';
+import { sendEmailVerification, updateProfile } from 'firebase/auth';
 import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa';
+import auth from '../Firebase/firebase.init';
 
 const SignUp = () => {
     const { createUser } = useContext(AuthContext);
@@ -77,8 +78,13 @@ const SignUp = () => {
                 updateProfile(recentUser, {
                     displayName: `${firstName} ${lastName}`,
                     photoURL: photo
-                }).then(() => console.log('Profile Updated')).catch(error => console.log(error))
-                setSuccess(true);
+                }).then(() => console.log('Profile Updated')).catch(error => console.log(error));
+                // send email for verification
+                sendEmailVerification(auth.currentUser)
+                .then(() => {
+                    setSuccess(true);
+                    alert('Please check your email and verified your email')
+                })                
 
                 const from = location.state?.from?.pathname || '/';
                 const bookingData = location.state?.from?.state;

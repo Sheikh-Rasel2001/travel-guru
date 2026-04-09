@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import SlideCard from './SlideCard';
 import { FaGreaterThan, FaLessThan } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { Link } from 'react-router';
+import AuthContext from '../Authentication/AuthContext';
+import { toast } from 'react-toastify';
 
 const images = [
     { title: "Sajek", image: "https://i.ibb.co.com/1tNWPNLb/Sajek.png" },
@@ -12,6 +14,13 @@ const images = [
 
 const Hero = () => {
     const [index, setIndex] = useState(0);
+    const {user} =useContext(AuthContext);
+
+    useEffect(() => {
+        if(user) {
+        toast.success('You are signed in. You can hotel booking now.')
+    }
+    }, [user])
 
     const next = () => {
         if (index < images.length - 2) {
