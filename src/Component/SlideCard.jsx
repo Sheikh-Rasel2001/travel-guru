@@ -10,8 +10,8 @@ const SlideCard = ({ index, images }) => {
                 {
                     images.map((img, i) => (
                         <div key={i} className='min-w-[40%] relative'>
-                            <img  src={img.image} alt={img.title} className='w-full h-96'/>
-                            <h3 className='absolute text-primary bebas bottom-8 left-8 text-4xl'>{img.title}</h3>
+                            <img  src={img.image} alt={img.title} className='w-full lg:h-96 h-64'/>
+                            <h3 className='absolute text-primary bebas lg:bottom-8 lg:left-8 bottom-4 left-4 text-2xl lg:text-4xl'>{img.title}</h3>
                         </div>
                     ))
                 }

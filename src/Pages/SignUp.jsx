@@ -102,8 +102,8 @@ const SignUp = () => {
     }
 
     return (
-        <div className='w-11/12 mx-auto'>
-            <div className='w-lg h-full mx-auto'>
+        <div className='min-h-screen mx-auto'>
+            <div className='w-full max-w-md h-full mx-auto'>
                 {/* form  */}
                 <div className='w-full h-full'>
                     <div className='w-11/12 mx-auto h-full border border-gray-300 rounded-lg px-2 py-4'>
@@ -137,13 +137,13 @@ const SignUp = () => {
                             </div>
                             {/* terms and conditions */}
                             <label className='flex items-center gap-2 cursor-pointer mt-4'>
-                                <input type="checkbox" name='terms' className="checkbox checkbox-md" />
-                                <p className='text-sm'>I agree to the <span className='text-blue-600 hover:underline'>Terms</span> and <span className='text-blue-600 hover:underline'>Conditions</span></p>
+                                <input type="checkbox" name='terms' className="checkbox lg:checkbox-md checkbox-sm" />
+                                <p className='lg:text-sm text-xs'>I agree to the <span className='text-blue-600 hover:underline'>Terms</span> and <span className='text-blue-600 hover:underline'>Conditions</span></p>
                             </label>
                             {/* submit button */}
                             <input type="submit" value="Create an Account" className='bg-secondary w-full py-2 rounded-lg font-semibold' />
                             <div>
-                                <p>Already have an account? <Link to='/auth/signIn' className='text-secondary underline'>Sign In</Link></p>
+                                <p className='lg:text-sm text-xs'>Already have an account? <Link to='/auth/signIn' className='text-secondary underline'>Sign In</Link></p>
                             </div>
                             {
                                 errorMessage && <p className='text-xs text-red-500'>{errorMessage}</p>
@@ -156,7 +156,7 @@ const SignUp = () => {
                     </div>
                     <div className="divider">OR</div>
                     {/* sign up with google */}
-                    <div className='flex flex-col space-y-4 mt-4 w-96 mx-auto mont'>
+                    <div className='flex flex-col space-y-4 mt-4 mx-auto mont'>
                         <button className='btn font-semibold'><img src={googleImg} alt="Continue With Google" className='w-4 h-4' />Continue With Google</button>
                         <button className='btn font-semibold'><img src={fbImg} alt="Continue With Facebook" className='w-4 h-4' />Continue With Facebook</button>
                     </div>

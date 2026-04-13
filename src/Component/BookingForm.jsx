@@ -18,8 +18,8 @@ const BookingForm = () => {
     }
 
     return (
-        <div>
-            <div className='bg-white w-md px-12 py-10 rounded-xl'>
+        <div className='w-full'>
+            <div className='bg-white px-12 py-10 rounded-xl'>
                 <form onSubmit={handleBooking} className='flex flex-col space-y-2 mont'>
                     {/* origin */}
                     <label className='text-accent'>Origin</label>
@@ -28,7 +28,7 @@ const BookingForm = () => {
                     <label className='text-accent'>Destination</label>
                     <input type="text" name="destination" required className='bg-base-200 py-2 px-4 text-lg outline-none rounded-lg' />
                     {/* booking date */}
-                    <div className='flex justify-between'>
+                    <div className='flex lg:justify-between lg:flex-row flex-col'>
                         <div className='flex flex-col space-y-1'>
                             <label className='text-accent'>From</label>
                             <input type="date" name="fromDate" required className='bg-base-200 py-2 px-4 text-sm outline-none rounded-lg' />

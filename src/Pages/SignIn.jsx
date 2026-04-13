@@ -30,47 +30,21 @@ const SignIn = () => {
         setErrorMessage('');
         setSuccess(false);
 
-        // password validation
-        if (password.length < 6) {
-            setErrorMessage("Password must be at least 6 characters");
-            return;
-        }
-
-        if (!/[A-Z]/.test(password)) {
-            setErrorMessage("Must include at least one uppercase letter");
-            return;
-        }
-
-        if (!/[a-z]/.test(password)) {
-            setErrorMessage("Must include at least one lowercase letter");
-            return;
-        }
-
-        if (!/[0-9]/.test(password)) {
-            setErrorMessage("Must include at least one number");
-            return;
-        }
-
-        if (!/[#?!@$%^&*-]/.test(password)) {
-            setErrorMessage("Must include at least one special character");
-            return;
-        }
-
         // remember me
-        if(!remember){
+        if (!remember) {
             setErrorMessage('Please remember me');
         }
 
         // sign in user
         signInUser(email, password)
             .then(result => {
-                if (!result.user.emailVerified){
-                    alert('Please verify your email');
+                if (!result.user.emailVerified) {
+                    toast.error('Please verify your email');
                     signOutUser();
                     return;
                 }
                 setSuccess(true);
-                 const from = location.state?.from?.pathname || '/';
+                const from = location.state?.from?.pathname || '/';
                 const bookingData = location.state?.from?.state;
 
                 toast('You are signed in. You can hotel booking now')
@@ -90,27 +64,27 @@ const SignIn = () => {
     const handleForgotPassword = () => {
         const sendEmail = emailRef.current.value;
 
-        if(!sendEmail){
+        if (!sendEmail) {
             alert('Please enter your email first');
             return;
         }
         // sent email for reset password 
         sendPasswordResetEmail(auth, sendEmail)
-        .then(() => {
-            alert('A password reset email is sent. Please check your email')
-        })
-        .catch(error => {
-            setErrorMessage(error.message);
-        })
+            .then(() => {
+                alert('A password reset email is sent. Please check your email')
+            })
+            .catch(error => {
+                setErrorMessage(error.message);
+            })
 
     }
 
     return (
-        <div className='w-11/12 mx-auto py-5'>
-            <div className='w-lg h-full mx-auto'>
+        <div className='min-h-screen mx-auto py-5'>
+            <div className='w-full max-w-md h-full mx-auto'>
                 {/* form  */}
                 <div className='w-full h-full'>
-                    <div className='w-11/12 mx-auto h-full border border-gray-300 rounded-lg px-2 py-4'>
+                    <div className='w-full mx-auto h-full border border-gray-300 rounded-lg px-2 py-4'>
                         <h1 className='text-xl font-semibold mb-3 mont text-[#001931] px-8'>Sign In</h1>
                         <form onSubmit={handleSignIn} className='w-full px-8 space-y-4 mont'>
                             {/* email */}
@@ -126,7 +100,7 @@ const SignIn = () => {
                             </div>
 
                             {/* forgot password */}
-                            <div className='flex justify-between items-center'>
+                            <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center'>
                                 <label className='flex items-center gap-2 cursor-pointer'>
                                     <input type="checkbox" name='remember' className="checkbox checkbox-md" />
                                     <p>Remember Me</p>
@@ -135,8 +109,9 @@ const SignIn = () => {
                             </div>
                             {/* submit button */}
                             <input type="submit" value="Sign In" className='bg-secondary w-full py-2 rounded-lg font-semibold' />
-                            <div>
-                                <p>Don't have an account? <Link to='/auth/signUp' className='text-secondary underline'>Create an account</Link></p>
+                            <div className='flex flex-col lg:flex-row gap-2'>
+                                <p>Don't have an account?</p>
+                                <Link to='/auth/signUp' className='text-secondary underline'>Create an account</Link>
                             </div>
                             {
                                 errorMessage && <p className='text-xs text-red-500'>{errorMessage} </p>
@@ -148,7 +123,7 @@ const SignIn = () => {
                     </div>
                     <div className="divider">OR</div>
                     {/* sign up with google */}
-                    <div className='flex flex-col space-y-4 mt-4 w-96 mx-auto mont'>
+                    <div className='flex flex-col space-y-4 mt-4 mx-auto mont'>
                         <button className='btn font-semibold'><img src={googleImg} alt="Continue With Google" className='w-4 h-4' />Continue With Google</button>
                         <button className='btn font-semibold'><img src={fbImg} alt="Continue With Facebook" className='w-4 h-4' />Continue With Facebook</button>
                     </div>
