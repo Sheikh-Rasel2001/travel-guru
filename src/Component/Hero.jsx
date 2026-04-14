@@ -36,9 +36,9 @@ const Hero = () => {
 
     return (
         <div>
-            <div className='w-11/12 mx-auto pt-10 grid grid-cols-1 lg:grid-cols-12 pl-10 gap-4'>
+            <div className='w-11/12 h-full mx-auto pt-10 pb-10 lg:pb-0 lg:pt-10 grid grid-cols-1 lg:grid-cols-12 pl-10 gap-4'>
                 <div className='col-span-4'>
-                    <h1 className='text-6xl text-primary bebas mb-3'>COX'S BAZAR</h1>
+                    <h1 className='text-4xl lg:text-6xl text-primary bebas mb-3'>COX'S BAZAR</h1>
                     <p className='mont text-primary text-sm mb-5 text-justify '>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
                     <Link to='/booking'>
                         <button className='flex gap-2 px-4 py-2 bg-secondary text-black font-semibold rounded-sm mont items-center'>Booking <FaArrowRightLong /></button>

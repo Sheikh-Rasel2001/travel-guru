@@ -17,7 +17,7 @@ const Booking = () => {
                 </div>
             </div>
           {/* back to home */}
-                <Link to='/' className='flex items-center text-blue-500 gap-2 hover:text-primary mont w-fit'><FaArrowLeft /> Back To Home</Link>
+                <Link to='/' className='flex items-center text-blue-500 gap-2 hover:text-primary mont w-fit pt-6 lg:pt-0'><FaArrowLeft /> Back To Home</Link>
         </div>
     );
 };

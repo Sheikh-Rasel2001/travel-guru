@@ -5,7 +5,7 @@ import Navbar from '../Component/Navbar';
 
 const MainLayout = () => {
     return (
-        <div className='w-full h-screen relative'>
+        <div className='w-full lg:h-screen h-full relative'>
             <img src={bgImage} alt='Background Image' className='absolute w-full h-full object-cover' />
 
             <div className='absolute inset-0 bg-black/50'></div>
