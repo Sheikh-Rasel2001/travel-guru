@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa';
 const HotelCard = ({ singleHotel, onClick }) => {
     const { image, roomDetails, title, features, cancellation, rating, reviews, pricePerNight, totalPrice } = singleHotel;
     return (
-        <div onClick={onClick} className='flex justify-between items-start px-4 py-2 gap-6 cursor-pointer'>
+        <div onClick={onClick} className='flex flex-col lg:flex-row lg:justify-between lg:items-start px-4 py-2 gap-6 cursor-pointer'>
             {/* image */}
             <div>
                 <img src={image} alt={title} className='w-60 h-40 rounded-md'/>

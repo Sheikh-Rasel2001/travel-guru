@@ -19,7 +19,7 @@ const Hotels = () => {
                 <header className='border-b pb-4 border-b-gray-300'>
                     <Navbar isDark={false}></Navbar>
                 </header>
-                <main className='mt-6 min-h-0 flex justify-between items-start gap-8 flex-1'>
+                <main className='mt-6 min-h-0 flex flex-col lg:flex-row lg:justify-between lg:items-start gap-8 lg:flex-1'>
                     <div className='w-full h-full overflow-y-auto'>
                         <h1 className='text-2xl text-[#001931] font-semibold mb-4 mont'>Stay In {destination}</h1>
                         {/* hotel details */}

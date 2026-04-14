@@ -89,7 +89,7 @@ const Navbar = ({ isDark }) => {
                     {/* Dropdown */}
                     {
                         open && user && (
-                            <div className="absolute right-0 mt-3 w-56 bg-white shadow-lg rounded-xl p-4 z-50 text-black">
+                            <div className="absolute right-0 mt-3 w-56 bg-white shadow-lg rounded-xl p-4 z-9999 text-black">
                                 <div className="border-b pb-2 mb-2">
                                     <h3 className="font-semibold">{user?.displayName}</h3>
                                     <p className="text-sm">{user?.email}</p>
@@ -109,7 +109,7 @@ const Navbar = ({ isDark }) => {
 
             {/* 🔥 MOBILE SIDEBAR */}
             <div
-                className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300 
+                className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-9999 transform transition-transform duration-300  
                 ${showMenu ? 'translate-x-0' : '-translate-x-full'}`}
             >
                 {/* Close */}

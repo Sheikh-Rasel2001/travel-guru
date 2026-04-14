@@ -19,7 +19,7 @@ const MapView = ({ hotels, selectedHotel }) => {
         color: #000;
         box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         white-space: nowrap;
-        z-index : 1000;
+        
       ">
         $${price}
       </div>
@@ -39,7 +39,7 @@ const MapView = ({ hotels, selectedHotel }) => {
             iconAnchor: [30, 15],
         });
     return (
-        <div className='w-full h-full rounded-lg'>
+        <div className='w-full h-full rounded-lg z-0'>
             <MapContainer
                 center={[hotels[0]?.lat || 23.8103, hotels[0]?.lng || 90.4125]}
                 zoom={7}
